@@ -23,9 +23,36 @@ The Ashet Home Computer is a platform to build your own computers on.
 
 ![Block Diagram](documents/block-diagram.svg)
 
+## Concept Art
+
+![Rendering Front](documents/concepts/case-render-front.png)
+
+![Rendering Front](documents/concepts/case-render-back.png)
+
 ## Project Status
 
 The project is in heavy planning phase with most of the required parts identified.
+
+| Component     | Status           |
+| ------------- | ---------------- |
+| COM1          | Schematic        |
+| COM2          | Schematic        |
+| COM3          | Schematic        |
+| COM4          | Schematic        |
+| Joystick (1)  | Schematic        |
+| Joystick (2)  | Schematic        |
+| PS/2 (1)      | Parts identified |
+| PS/2 (2)      | Parts identified |
+| IDE / PATA    | Parts identified |
+| Parallel Port | Parts identified |
+| PCM Audio     | Parts identified |
+| VGA           | Parts identified |
+| Ethernet      | Parts identified |
+| RAM           | Parts identified |
+| Flash         | Parts identified |
+| RTC           | -                |
+| FPGA          | -                |
+| Power Supply  | -                |
 
 ## Contribution
 
