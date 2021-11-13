@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TFBS4652-TR1
+D Infrared Transceivers SIR 115.2 kbits/s 2.4-3.6V Op Voltage
+K
+F https://datasheet.lcsc.com/szlcsc/Vishay-Intertech-TFBS4652-TR1_C116915.pdf
+$ENDCMP
+#
+#End Doc Library

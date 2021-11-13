@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name MAX561CAI+)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/MAX561CAI+/MAX561CAI+.lib)(options "")(descr ""))
+  (lib (name FT232HL-REEL)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/FT232HL-REEL/FT232HL-REEL.lib)(options "")(descr ""))
+  (lib (name TFBS4652-TR1)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/TFBS4652-TR1/TFBS4652-TR1.lib)(options "")(descr ""))
 )

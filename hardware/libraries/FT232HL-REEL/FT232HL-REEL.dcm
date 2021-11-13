@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT232HL-REEL
+D USB 2.0 to UART/FIFO Interface, LQFP48 FTDI Chip FT232HL-REEL Universal Asynchronous Receiver & Transmitter RS232, RS422, RS485 UART 12Mbit/s, 1.8 V, 3.3 V
+K
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf
+$ENDCMP
+#
+#End Doc Library
