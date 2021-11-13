@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX561CAI+
+D MAXIM INTEGRATED PRODUCTS - MAX561CAI+ - TRANSCEIVER, EIA/TIA 562, SSOP-28
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX560-MAX561.pdf
+$ENDCMP
+#
+#End Doc Library

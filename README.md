@@ -26,3 +26,7 @@ The Ashet Home Computer is a platform to build your own computers on.
 ## Project Status
 
 The project is in heavy planning phase with most of the required parts identified.
+
+## Contribution
+
+The hardware is created with [KiCad](https://www.kicad.org/)
