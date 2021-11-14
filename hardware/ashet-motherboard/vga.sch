@@ -1,0 +1,485 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4116R-R2R-253LF:4116R-R2R-253LF RN?
+U 1 1 6190CEB6
+P 2550 2500
+F 0 "RN?" H 3050 2765 50  0000 C CNN
+F 1 "4116R-R2R-253LF" H 3050 2674 50  0000 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 3400 2600 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/54/r2r-1018811.pdf" H 3400 2500 50  0001 L CNN
+F 4 "Resistor Networks & Arrays THK FILM MOLD DIP 25K 2%" H 3400 2400 50  0001 L CNN "Description"
+F 5 "4.69" H 3400 2300 50  0001 L CNN "Height"
+F 6 "Bourns" H 3400 2200 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-R2R-253LF" H 3400 2100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3400 2000 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3400 1900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3400 1800 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3400 1700 50  0001 L CNN "Arrow Price/Stock"
+	1    2550 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 2450 2500 0    50   Input ~ 0
+R4
+Text HLabel 2450 2600 0    50   Input ~ 0
+R3
+Text HLabel 2450 2700 0    50   Input ~ 0
+R2
+Text HLabel 2450 2800 0    50   Input ~ 0
+R1
+Text HLabel 2450 2900 0    50   Input ~ 0
+R0
+Wire Wire Line
+	2550 3000 2450 3000
+Wire Wire Line
+	2450 3000 2450 3100
+Wire Wire Line
+	2550 3200 2450 3200
+Connection ~ 2450 3200
+Wire Wire Line
+	2450 3200 2450 3300
+Wire Wire Line
+	2550 3100 2450 3100
+Connection ~ 2450 3100
+Wire Wire Line
+	2450 3100 2450 3200
+Wire Wire Line
+	3550 3200 3650 3200
+Wire Wire Line
+	3650 3200 3650 3300
+$Comp
+L power:GND #PWR?
+U 1 1 61912528
+P 2450 3300
+F 0 "#PWR?" H 2450 3050 50  0001 C CNN
+F 1 "GND" H 2455 3127 50  0000 C CNN
+F 2 "" H 2450 3300 50  0001 C CNN
+F 3 "" H 2450 3300 50  0001 C CNN
+	1    2450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6191274E
+P 3650 3300
+F 0 "#PWR?" H 3650 3050 50  0001 C CNN
+F 1 "GND" H 3655 3127 50  0000 C CNN
+F 2 "" H 3650 3300 50  0001 C CNN
+F 3 "" H 3650 3300 50  0001 C CNN
+	1    3650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2900 2450 2900
+Wire Wire Line
+	2550 2800 2450 2800
+Wire Wire Line
+	2550 2700 2450 2700
+Wire Wire Line
+	2550 2600 2450 2600
+Wire Wire Line
+	2550 2500 2450 2500
+$Comp
+L 4116R-R2R-253LF:4116R-R2R-253LF RN?
+U 1 1 6191B224
+P 2550 3850
+F 0 "RN?" H 3050 4115 50  0000 C CNN
+F 1 "4116R-R2R-253LF" H 3050 4024 50  0000 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 3400 3950 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/54/r2r-1018811.pdf" H 3400 3850 50  0001 L CNN
+F 4 "Resistor Networks & Arrays THK FILM MOLD DIP 25K 2%" H 3400 3750 50  0001 L CNN "Description"
+F 5 "4.69" H 3400 3650 50  0001 L CNN "Height"
+F 6 "Bourns" H 3400 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-R2R-253LF" H 3400 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3400 3350 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3400 3250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3400 3150 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3400 3050 50  0001 L CNN "Arrow Price/Stock"
+	1    2550 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 2450 3950 0    50   Input ~ 0
+G4
+Text HLabel 2450 4050 0    50   Input ~ 0
+G3
+Text HLabel 2450 4150 0    50   Input ~ 0
+G2
+Text HLabel 2450 4250 0    50   Input ~ 0
+G1
+Text HLabel 2450 4350 0    50   Input ~ 0
+G0
+Wire Wire Line
+	2550 4550 2450 4550
+Connection ~ 2450 4550
+Wire Wire Line
+	2450 4550 2450 4650
+Wire Wire Line
+	2550 4450 2450 4450
+Wire Wire Line
+	2450 4450 2450 4550
+Wire Wire Line
+	3550 4550 3650 4550
+Wire Wire Line
+	3650 4550 3650 4650
+$Comp
+L power:GND #PWR?
+U 1 1 6191B239
+P 2450 4650
+F 0 "#PWR?" H 2450 4400 50  0001 C CNN
+F 1 "GND" H 2455 4477 50  0000 C CNN
+F 2 "" H 2450 4650 50  0001 C CNN
+F 3 "" H 2450 4650 50  0001 C CNN
+	1    2450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6191B23F
+P 3650 4650
+F 0 "#PWR?" H 3650 4400 50  0001 C CNN
+F 1 "GND" H 3655 4477 50  0000 C CNN
+F 2 "" H 3650 4650 50  0001 C CNN
+F 3 "" H 3650 4650 50  0001 C CNN
+	1    3650 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3850 3550 3850
+Wire Wire Line
+	2550 4250 2450 4250
+Wire Wire Line
+	2550 4150 2450 4150
+Wire Wire Line
+	2550 4050 2450 4050
+Wire Wire Line
+	2550 3950 2450 3950
+Wire Wire Line
+	2550 3850 2450 3850
+$Comp
+L 4116R-R2R-253LF:4116R-R2R-253LF RN?
+U 1 1 6191C755
+P 2550 5250
+F 0 "RN?" H 3050 5515 50  0000 C CNN
+F 1 "4116R-R2R-253LF" H 3050 5424 50  0000 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 3400 5350 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/54/r2r-1018811.pdf" H 3400 5250 50  0001 L CNN
+F 4 "Resistor Networks & Arrays THK FILM MOLD DIP 25K 2%" H 3400 5150 50  0001 L CNN "Description"
+F 5 "4.69" H 3400 5050 50  0001 L CNN "Height"
+F 6 "Bourns" H 3400 4950 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-R2R-253LF" H 3400 4850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3400 4750 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3400 4650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3400 4550 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3400 4450 50  0001 L CNN "Arrow Price/Stock"
+	1    2550 5250
+	1    0    0    -1  
+$EndComp
+Text HLabel 2450 5250 0    50   Input ~ 0
+B4
+Text HLabel 2450 5350 0    50   Input ~ 0
+B3
+Text HLabel 2450 5450 0    50   Input ~ 0
+B2
+Text HLabel 2450 5550 0    50   Input ~ 0
+B1
+Text HLabel 2450 5650 0    50   Input ~ 0
+B0
+Wire Wire Line
+	2550 5750 2450 5750
+Wire Wire Line
+	2450 5750 2450 5850
+Wire Wire Line
+	2550 5950 2450 5950
+Connection ~ 2450 5950
+Wire Wire Line
+	2450 5950 2450 6050
+Wire Wire Line
+	2550 5850 2450 5850
+Connection ~ 2450 5850
+Wire Wire Line
+	2450 5850 2450 5950
+Wire Wire Line
+	3550 5950 3650 5950
+Wire Wire Line
+	3650 5950 3650 6050
+$Comp
+L power:GND #PWR?
+U 1 1 6191C76A
+P 2450 6050
+F 0 "#PWR?" H 2450 5800 50  0001 C CNN
+F 1 "GND" H 2455 5877 50  0000 C CNN
+F 2 "" H 2450 6050 50  0001 C CNN
+F 3 "" H 2450 6050 50  0001 C CNN
+	1    2450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6191C770
+P 3650 6050
+F 0 "#PWR?" H 3650 5800 50  0001 C CNN
+F 1 "GND" H 3655 5877 50  0000 C CNN
+F 2 "" H 3650 6050 50  0001 C CNN
+F 3 "" H 3650 6050 50  0001 C CNN
+	1    3650 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5650 2450 5650
+Wire Wire Line
+	2550 5550 2450 5550
+Wire Wire Line
+	2550 5450 2450 5450
+Wire Wire Line
+	2550 5350 2450 5350
+Wire Wire Line
+	2550 5250 2450 5250
+Wire Wire Line
+	2550 4350 2450 4350
+Text HLabel 2450 3850 0    50   Input ~ 0
+G5
+Wire Wire Line
+	3800 4200 4200 4200
+Text Label 4200 4200 2    50   ~ 0
+VGA_G
+Wire Wire Line
+	3650 4550 3800 4550
+Wire Wire Line
+	3800 4550 3800 4500
+Connection ~ 3650 4550
+Wire Wire Line
+	3800 3850 3800 3900
+Wire Wire Line
+	3800 2500 3550 2500
+$Comp
+L Device:R R?
+U 1 1 6192ADA6
+P 3800 2700
+F 0 "R?" H 3870 2746 50  0000 L CNN
+F 1 "8,2k" H 3870 2655 50  0000 L CNN
+F 2 "" V 3730 2700 50  0001 C CNN
+F 3 "~" H 3800 2700 50  0001 C CNN
+	1    3800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6192ADAC
+P 3800 3000
+F 0 "R?" H 3870 3046 50  0000 L CNN
+F 1 "2,2k" H 3870 2955 50  0000 L CNN
+F 2 "" V 3730 3000 50  0001 C CNN
+F 3 "~" H 3800 3000 50  0001 C CNN
+	1    3800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2850 4200 2850
+Connection ~ 3800 2850
+Text Label 4200 2850 2    50   ~ 0
+VGA_R
+Wire Wire Line
+	3800 3200 3800 3150
+Wire Wire Line
+	3800 2500 3800 2550
+Wire Wire Line
+	3800 5250 3550 5250
+Wire Wire Line
+	3800 5600 4200 5600
+Text Label 4200 5600 2    50   ~ 0
+VGA_B
+Wire Wire Line
+	3800 5950 3800 5900
+Wire Wire Line
+	3800 5250 3800 5300
+Wire Wire Line
+	3800 5950 3650 5950
+Connection ~ 3650 5950
+Wire Wire Line
+	3800 3200 3650 3200
+Connection ~ 3650 3200
+Text Notes 3800 2500 2    50   ~ 0
+3V3
+Text Notes 3800 3850 2    50   ~ 0
+3V3
+Text Notes 3800 5250 2    50   ~ 0
+3V3
+$Comp
+L Device:R R?
+U 1 1 61938CB8
+P 3800 4050
+F 0 "R?" H 3870 4096 50  0000 L CNN
+F 1 "8,2k" H 3870 4005 50  0000 L CNN
+F 2 "" V 3730 4050 50  0001 C CNN
+F 3 "~" H 3800 4050 50  0001 C CNN
+	1    3800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61938FE1
+P 3800 5450
+F 0 "R?" H 3870 5496 50  0000 L CNN
+F 1 "8,2k" H 3870 5405 50  0000 L CNN
+F 2 "" V 3730 5450 50  0001 C CNN
+F 3 "~" H 3800 5450 50  0001 C CNN
+	1    3800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619393BD
+P 3800 4350
+F 0 "R?" H 3870 4396 50  0000 L CNN
+F 1 "2,2k" H 3870 4305 50  0000 L CNN
+F 2 "" V 3730 4350 50  0001 C CNN
+F 3 "~" H 3800 4350 50  0001 C CNN
+	1    3800 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 4200
+$Comp
+L Device:R R?
+U 1 1 6193A1EC
+P 3800 5750
+F 0 "R?" H 3870 5796 50  0000 L CNN
+F 1 "2,2k" H 3870 5705 50  0000 L CNN
+F 2 "" V 3730 5750 50  0001 C CNN
+F 3 "~" H 3800 5750 50  0001 C CNN
+	1    3800 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 5600
+Text HLabel 2450 1450 0    50   Input ~ 0
+HS
+$Comp
+L Device:R R?
+U 1 1 6193FB3C
+P 2700 1450
+F 0 "R?" V 2493 1450 50  0000 C CNN
+F 1 "100" V 2584 1450 50  0000 C CNN
+F 2 "" V 2630 1450 50  0001 C CNN
+F 3 "~" H 2700 1450 50  0001 C CNN
+	1    2700 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1450 2550 1450
+Text Label 3200 1450 2    50   ~ 0
+VGA_HS
+Wire Wire Line
+	3200 1450 2850 1450
+Text HLabel 2450 1800 0    50   Input ~ 0
+VS
+$Comp
+L Device:R R?
+U 1 1 6194447C
+P 2700 1800
+F 0 "R?" V 2493 1800 50  0000 C CNN
+F 1 "100" V 2584 1800 50  0000 C CNN
+F 2 "" V 2630 1800 50  0001 C CNN
+F 3 "~" H 2700 1800 50  0001 C CNN
+	1    2700 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1800 2550 1800
+Text Label 3200 1800 2    50   ~ 0
+VGA_VS
+Wire Wire Line
+	3200 1800 2850 1800
+$Comp
+L Connector:DB15_Female_HighDensity J?
+U 1 1 61946CD9
+P 7200 3800
+F 0 "J?" H 7200 4667 50  0000 C CNN
+F 1 "DB15_Female_HighDensity" H 7200 4576 50  0000 C CNN
+F 2 "" H 6250 4200 50  0001 C CNN
+F 3 " ~" H 6250 4200 50  0001 C CNN
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3500 6800 3500
+Wire Wire Line
+	6900 3300 6800 3300
+Wire Wire Line
+	6900 3700 6800 3700
+Wire Wire Line
+	6900 4100 6800 4100
+Wire Wire Line
+	6900 4200 6800 4200
+Wire Wire Line
+	6800 3300 6800 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6800 3500 6800 3700
+Connection ~ 6800 3700
+Wire Wire Line
+	6800 3700 6800 4100
+Connection ~ 6800 4100
+Wire Wire Line
+	6800 4100 6800 4200
+Connection ~ 6800 4200
+Wire Wire Line
+	6800 4200 6800 4300
+$Comp
+L power:GND #PWR?
+U 1 1 6194E880
+P 6800 4300
+F 0 "#PWR?" H 6800 4050 50  0001 C CNN
+F 1 "GND" H 6805 4127 50  0000 C CNN
+F 2 "" H 6800 4300 50  0001 C CNN
+F 3 "" H 6800 4300 50  0001 C CNN
+	1    6800 4300
+	1    0    0    -1  
+$EndComp
+Text Label 6400 3400 0    50   ~ 0
+VGA_R
+Text Label 6400 3600 0    50   ~ 0
+VGA_G
+Text Label 6400 3800 0    50   ~ 0
+VGA_B
+Wire Wire Line
+	6900 3900 6700 3900
+Wire Wire Line
+	6700 3900 6700 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 61958154
+P 6700 3100
+F 0 "#PWR?" H 6700 2950 50  0001 C CNN
+F 1 "+5V" H 6715 3273 50  0000 C CNN
+F 2 "" H 6700 3100 50  0001 C CNN
+F 3 "" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3800 6900 3800
+Wire Wire Line
+	6400 3600 6900 3600
+Wire Wire Line
+	6400 3400 6900 3400
+Text Label 7800 3800 2    50   ~ 0
+VGA_HS
+Text Label 7800 4000 2    50   ~ 0
+VGA_VS
+Wire Wire Line
+	7800 3800 7500 3800
+Wire Wire Line
+	7500 4000 7800 4000
+$EndSCHEMATC

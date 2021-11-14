@@ -12,7 +12,7 @@ The Ashet Home Computer is a platform to build your own computers on.
 - An IrPHY compliant infrared port
 - An USB-UART
 - Two PS/2 compatible ports
-- A single IDE bus, supporting primary and secondary drive
+- CompactFlash socket
 - 2 D-Sub 9 Joystick ports compatible to C64, CPC, Amiga…
 - IEEE 1284 II parallel port
 - Studio-quality line audio from I²S
@@ -43,10 +43,10 @@ The project is in heavy planning phase with most of the required parts identifie
 | Joystick (2)  | Schematic        |
 | PS/2 (1)      | Parts identified |
 | PS/2 (2)      | Parts identified |
-| IDE / PATA    | Parts identified |
-| Parallel Port | Parts identified |
+| CompactFlash  | Schematic        |
+| Parallel Port | Schematic        |
 | PCM Audio     | Parts identified |
-| VGA           | Parts identified |
+| VGA           | Schematic        |
 | Ethernet      | Parts identified |
 | RAM           | Parts identified |
 | Flash         | Parts identified |
