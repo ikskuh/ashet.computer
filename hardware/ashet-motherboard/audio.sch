@@ -1,0 +1,454 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CS4344-CZZ:CS4344-CZZ IC?
+U 1 1 61F82C29
+P 4400 2200
+F 0 "IC?" H 5100 2465 50  0000 C CNN
+F 1 "CS4344-CZZ" H 5100 2374 50  0000 C CNN
+F 2 "SOP50P490X110-10N" H 5650 2300 50  0001 L CNN
+F 3 "http://www.mouser.com/ds/2/76/CS4344-45-48_F2-472818.pdf" H 5650 2200 50  0001 L CNN
+F 4 "Audio D/A Converter ICs Stereo DAC 24-Bit 192kHz" H 5650 2100 50  0001 L CNN "Description"
+F 5 "1.1" H 5650 2000 50  0001 L CNN "Height"
+F 6 "Cirrus Logic" H 5650 1900 50  0001 L CNN "Manufacturer_Name"
+F 7 "CS4344-CZZ" H 5650 1800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "777-CS4344-CZZ" H 5650 1700 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Cirrus-Logic/CS4344-CZZ?qs=bUPhaerQQeHFJRWtIjW9Ww%3D%3D" H 5650 1600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5650 1500 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5650 1400 50  0001 L CNN "Arrow Price/Stock"
+	1    4400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PJRAS1X2S01X:PJRAS1X2S01X J?
+U 1 1 61F8A97B
+P 8700 2800
+F 0 "J?" V 9196 2572 50  0000 R CNN
+F 1 "PJRAS1X2S01X" V 9105 2572 50  0000 R CNN
+F 2 "PJRAS1X2S01X" H 9450 2900 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/393/pjras1x2s__x_series_cd-9138.pdf" H 9450 2800 50  0001 L CNN
+F 4 "RCA Phono Connectors 2 POS RA SHIELDED PH RED-WHT RoHS" H 9450 2700 50  0001 L CNN "Description"
+F 5 "28.5" H 9450 2600 50  0001 L CNN "Height"
+F 6 "Switchcraft" H 9450 2500 50  0001 L CNN "Manufacturer_Name"
+F 7 "PJRAS1X2S01X" H 9450 2400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "502-PJRAS1X2S01X" H 9450 2300 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Switchcraft/PJRAS1X2S01X?qs=mcPJWgAPNrfcthjBWnwusw%3D%3D" H 9450 2200 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PJRAS1X2S01X" H 9450 2100 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pjras1x2s01x/switchcraft" H 9450 2000 50  0001 L CNN "Arrow Price/Stock"
+	1    8700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F8AEC5
+P 8950 1900
+F 0 "#PWR?" H 8950 1650 50  0001 C CNN
+F 1 "GND" H 8955 1727 50  0000 C CNN
+F 2 "" H 8950 1900 50  0001 C CNN
+F 3 "" H 8950 1900 50  0001 C CNN
+	1    8950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1900 8800 1800
+Wire Wire Line
+	8800 1800 8950 1800
+Wire Wire Line
+	8950 1800 8950 1900
+Wire Wire Line
+	8700 1900 8700 1800
+Wire Wire Line
+	8700 2900 8700 2800
+Wire Wire Line
+	5800 2400 5900 2400
+$Comp
+L power:GND #PWR?
+U 1 1 61F8DE01
+P 5900 3250
+F 0 "#PWR?" H 5900 3000 50  0001 C CNN
+F 1 "GND" H 5905 3077 50  0000 C CNN
+F 2 "" H 5900 3250 50  0001 C CNN
+F 3 "" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 3800 2200 0    50   Input ~ 0
+SDIN
+Wire Wire Line
+	3800 2200 4400 2200
+Wire Wire Line
+	4400 2400 3800 2400
+Wire Wire Line
+	4400 2500 3800 2500
+Text HLabel 3800 2400 0    50   Input ~ 0
+LRCK
+Text HLabel 3800 2500 0    50   Input ~ 0
+MCLK
+Text HLabel 3800 2300 0    50   Input ~ 0
+SCLK
+Wire Wire Line
+	3800 2300 4400 2300
+Wire Wire Line
+	5800 2300 5900 2300
+Wire Wire Line
+	5900 2300 5900 2000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61F92CAA
+P 5900 2000
+F 0 "#PWR?" H 5900 1850 50  0001 C CNN
+F 1 "+3V3" H 5915 2173 50  0000 C CNN
+F 2 "" H 5900 2000 50  0001 C CNN
+F 3 "" H 5900 2000 50  0001 C CNN
+	1    5900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61F930A5
+P 900 750
+F 0 "#PWR?" H 900 600 50  0001 C CNN
+F 1 "+3V3" H 915 923 50  0000 C CNN
+F 2 "" H 900 750 50  0001 C CNN
+F 3 "" H 900 750 50  0001 C CNN
+	1    900  750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F934F3
+P 900 1450
+F 0 "#PWR?" H 900 1200 50  0001 C CNN
+F 1 "GND" H 905 1277 50  0000 C CNN
+F 2 "" H 900 1450 50  0001 C CNN
+F 3 "" H 900 1450 50  0001 C CNN
+	1    900  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F93870
+P 650 1100
+F 0 "C?" H 765 1146 50  0000 L CNN
+F 1 "100n" H 765 1055 50  0000 L CNN
+F 2 "" H 688 950 50  0001 C CNN
+F 3 "~" H 650 1100 50  0001 C CNN
+	1    650  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61F93C4D
+P 1150 1100
+F 0 "C?" H 1268 1146 50  0000 L CNN
+F 1 "100n" H 1268 1055 50  0000 L CNN
+F 2 "" H 1188 950 50  0001 C CNN
+F 3 "~" H 1150 1100 50  0001 C CNN
+	1    1150 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 850  1150 950 
+Wire Wire Line
+	650  950  650  850 
+Wire Wire Line
+	650  850  900  850 
+Wire Wire Line
+	900  850  900  750 
+Connection ~ 900  850 
+Wire Wire Line
+	900  850  1150 850 
+Wire Wire Line
+	650  1250 650  1350
+Wire Wire Line
+	650  1350 900  1350
+Wire Wire Line
+	1150 1350 1150 1250
+Wire Wire Line
+	900  1350 900  1450
+Connection ~ 900  1350
+Wire Wire Line
+	900  1350 1150 1350
+$Comp
+L Device:C C?
+U 1 1 61F9A492
+P 4200 2850
+F 0 "C?" H 4315 2896 50  0000 L CNN
+F 1 "100n" H 4315 2805 50  0000 L CNN
+F 2 "" H 4238 2700 50  0001 C CNN
+F 3 "~" H 4200 2850 50  0001 C CNN
+	1    4200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61F9A942
+P 3800 2850
+F 0 "C?" H 3918 2896 50  0000 L CNN
+F 1 "3.3µ" H 3918 2805 50  0000 L CNN
+F 2 "" H 3838 2700 50  0001 C CNN
+F 3 "~" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2600 4200 2600
+Wire Wire Line
+	4200 2600 4200 2700
+Wire Wire Line
+	3800 2700 3800 2600
+Wire Wire Line
+	3800 2600 4200 2600
+Connection ~ 4200 2600
+Wire Wire Line
+	3800 3000 3800 3100
+Wire Wire Line
+	3800 3100 4000 3100
+Wire Wire Line
+	4200 3100 4200 3000
+Wire Wire Line
+	4000 3100 4000 3200
+Connection ~ 4000 3100
+Wire Wire Line
+	4000 3100 4200 3100
+$Comp
+L power:GND #PWR?
+U 1 1 61F9DC4A
+P 4000 3200
+F 0 "#PWR?" H 4000 2950 50  0001 C CNN
+F 1 "GND" H 4005 3027 50  0000 C CNN
+F 2 "" H 4000 3200 50  0001 C CNN
+F 3 "" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 3650 3050 2    50   ~ 0
+Popguard ramp can be adjusted by\nselecting this capacitor value to be\n3.3 µF to give 250 ms ramp time\nor 10 µF to give a 420 ms ramp\ntime.
+$Comp
+L Device:CP C?
+U 1 1 61F9EE68
+P 6200 2850
+F 0 "C?" H 6318 2896 50  0000 L CNN
+F 1 "10µ" H 6318 2805 50  0000 L CNN
+F 2 "" H 6238 2700 50  0001 C CNN
+F 3 "~" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2400 5900 3100
+Wire Wire Line
+	6200 3000 6200 3100
+Wire Wire Line
+	6200 3100 5900 3100
+Connection ~ 5900 3100
+Wire Wire Line
+	5900 3100 5900 3250
+Wire Wire Line
+	6200 2700 6200 2600
+Wire Wire Line
+	6200 2600 5800 2600
+$Comp
+L Device:C C?
+U 1 1 61FA7AA3
+P 7150 1800
+F 0 "C?" V 7402 1800 50  0000 C CNN
+F 1 "3.3µ" V 7311 1800 50  0000 C CNN
+F 2 "" H 7188 1650 50  0001 C CNN
+F 3 "~" H 7150 1800 50  0001 C CNN
+	1    7150 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61FAABBA
+P 7400 2050
+F 0 "R?" H 7470 2096 50  0000 L CNN
+F 1 "10k" H 7470 2005 50  0000 L CNN
+F 2 "" V 7330 2050 50  0001 C CNN
+F 3 "~" H 7400 2050 50  0001 C CNN
+	1    7400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61FAC454
+P 7650 1800
+F 0 "R?" V 7443 1800 50  0000 C CNN
+F 1 "470" V 7534 1800 50  0000 C CNN
+F 2 "" V 7580 1800 50  0001 C CNN
+F 3 "~" H 7650 1800 50  0001 C CNN
+	1    7650 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 1800 7400 1800
+Wire Wire Line
+	7400 1800 7400 1900
+Wire Wire Line
+	7400 1800 7500 1800
+Connection ~ 7400 1800
+Wire Wire Line
+	7800 1800 7900 1800
+Wire Wire Line
+	7900 1800 7900 1900
+$Comp
+L Device:C C?
+U 1 1 61FB0161
+P 7900 2050
+F 0 "C?" H 8015 2096 50  0000 L CNN
+F 1 "?" H 8015 2005 50  0000 L CNN
+F 2 "" H 7938 1900 50  0001 C CNN
+F 3 "~" H 7900 2050 50  0001 C CNN
+	1    7900 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2200 7400 2300
+Wire Wire Line
+	7400 2300 7650 2300
+Wire Wire Line
+	7900 2300 7900 2200
+Text Label 6300 2200 2    50   ~ 0
+UNFILT_R
+Text Label 6300 2500 2    50   ~ 0
+UNFILT_L
+Connection ~ 7900 1800
+Text Label 8350 1800 2    50   ~ 0
+FILT_R
+Text Label 6600 1800 0    50   ~ 0
+UNFILT_R
+Wire Wire Line
+	6600 1800 7000 1800
+Connection ~ 7650 2300
+Wire Wire Line
+	7650 2300 7900 2300
+$Comp
+L power:GND #PWR?
+U 1 1 61FBEE78
+P 7650 2400
+F 0 "#PWR?" H 7650 2150 50  0001 C CNN
+F 1 "GND" H 7655 2227 50  0000 C CNN
+F 2 "" H 7650 2400 50  0001 C CNN
+F 3 "" H 7650 2400 50  0001 C CNN
+	1    7650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2300 7650 2400
+Text Notes 7150 1450 0    50   ~ 0
+For best 20 kHz response\n     Rext + 470\nC = ————————————\n     4πFs(Rext * 470)
+Wire Wire Line
+	7650 3400 7650 3500
+$Comp
+L power:GND #PWR?
+U 1 1 61FCE05A
+P 7650 3500
+F 0 "#PWR?" H 7650 3250 50  0001 C CNN
+F 1 "GND" H 7655 3327 50  0000 C CNN
+F 2 "" H 7650 3500 50  0001 C CNN
+F 3 "" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3400 7900 3400
+Connection ~ 7650 3400
+Wire Wire Line
+	6600 2900 7000 2900
+Text Label 6600 2900 0    50   ~ 0
+UNFILT_L
+Text Label 8350 2900 2    50   ~ 0
+FILT_L
+Connection ~ 7900 2900
+Wire Wire Line
+	7900 3400 7900 3300
+Wire Wire Line
+	7400 3400 7650 3400
+Wire Wire Line
+	7400 3300 7400 3400
+$Comp
+L Device:C C?
+U 1 1 61FCE04A
+P 7900 3150
+F 0 "C?" H 8015 3196 50  0000 L CNN
+F 1 "?" H 8015 3105 50  0000 L CNN
+F 2 "" H 7938 3000 50  0001 C CNN
+F 3 "~" H 7900 3150 50  0001 C CNN
+	1    7900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2900 7900 3000
+Wire Wire Line
+	7800 2900 7900 2900
+Connection ~ 7400 2900
+Wire Wire Line
+	7400 2900 7500 2900
+Wire Wire Line
+	7400 2900 7400 3000
+Wire Wire Line
+	7300 2900 7400 2900
+$Comp
+L Device:R R?
+U 1 1 61FCE03E
+P 7650 2900
+F 0 "R?" V 7443 2900 50  0000 C CNN
+F 1 "470" V 7534 2900 50  0000 C CNN
+F 2 "" V 7580 2900 50  0001 C CNN
+F 3 "~" H 7650 2900 50  0001 C CNN
+	1    7650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61FCE038
+P 7400 3150
+F 0 "R?" H 7470 3196 50  0000 L CNN
+F 1 "10k" H 7470 3105 50  0000 L CNN
+F 2 "" V 7330 3150 50  0001 C CNN
+F 3 "~" H 7400 3150 50  0001 C CNN
+	1    7400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61FCE032
+P 7150 2900
+F 0 "C?" V 7402 2900 50  0000 C CNN
+F 1 "3.3µ" V 7311 2900 50  0000 C CNN
+F 2 "" H 7188 2750 50  0001 C CNN
+F 3 "~" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 2900 8700 2900
+Wire Wire Line
+	7900 1800 8700 1800
+Wire Wire Line
+	5800 2500 6600 2500
+Wire Wire Line
+	5800 2200 6600 2200
+Wire Wire Line
+	6600 2500 6600 2900
+Wire Wire Line
+	6600 2200 6600 1800
+Text Notes 3500 2550 2    50   ~ 0
+12.2880 MHz
+Text Notes 3500 2450 2    50   ~ 0
+48 kHz
+$EndSCHEMATC

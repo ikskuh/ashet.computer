@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CS4344-CZZ
+D Audio D/A Converter ICs Stereo DAC 24-Bit 192kHz
+K
+F http://www.mouser.com/ds/2/76/CS4344-45-48_F2-472818.pdf
+$ENDCMP
+#
+#End Doc Library

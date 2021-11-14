@@ -41,11 +41,11 @@ The project is in heavy planning phase with most of the required parts identifie
 | COM4          | Schematic        |
 | Joystick (1)  | Schematic        |
 | Joystick (2)  | Schematic        |
-| PS/2 (1)      | Parts identified |
-| PS/2 (2)      | Parts identified |
+| PS/2 (1)      | Schematic        |
+| PS/2 (2)      | Schematic        |
 | CompactFlash  | Schematic        |
 | Parallel Port | Schematic        |
-| PCM Audio     | Parts identified |
+| PCM Audio     | Schematic        |
 | VGA           | Schematic        |
 | Ethernet      | Parts identified |
 | RAM           | Parts identified |

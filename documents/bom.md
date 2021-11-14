@@ -14,3 +14,5 @@
 | SN74LXCH8T245PWR        | 2     | Parallel Port | 24-TSSOP   | 8-bit Translating Transceiver with Configurable Level Shifting                                             |
 | 4116R-R2R-253LF         | 3     | VGA           | 16-DIP     | R/2R Series Thick Film Networks                                                                            |
 | CFT-125-01-L-D-RA-01-SL | 1     | IDE / CF      | Custom     | COMPACT FLASH TERMINALS & SOCKETS                                                                          |
+| BSN20                   | 2     | PS/2          | SOT-23     | N-CHANNEL ENHANCEMENT MODE FIELD MOSFET                                                                    |
+| PJRAS1X2S01X            | 1     |               | Custom     | RCA Phono Connectors 2 POS RA SHIELDED PH RED-WHT                                                          |
