@@ -18,3 +18,5 @@
 | PJRAS1X2S01X            | 1     |               | Custom   | RCA Phono Connectors 2 POS RA SHIELDED PH RED-WHT                                                                                                       |
 | J1B1211CCD              | 1     | Ethernet      | Custom   | SINGLE RJ45 CONNECTOR CONNECTOR CONNECTOR CONNECTOR MODULE WITH 10/100 BASE-TX BASE-TX BASE-TX BASE-TX MAGNETICS MAGNETICS MAGNETICS MAGNETICS AND LEDS |
 | ATS25ASM-1E             | 1     | Ethernet      | Custom   | ATS/ATS-SM Series Quartz Crystal                                                                                                                        |
+| MCP7940NT-I/MS          | 1     | RTC           | MSOP-8   |
+| SMTU2032-G.TR           | 1     | RTC           | Custom   | Battery holder SMT HLDR-T&R-GLD CON FOR CR2032MFR                                                                                                       |

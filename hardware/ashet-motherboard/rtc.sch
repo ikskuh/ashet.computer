@@ -1,0 +1,221 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 16 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP7940NT-I_MS:MCP7940NT-I_MS IC?
+U 1 1 62430CB6
+P 3450 2800
+F 0 "IC?" H 4000 3065 50  0000 C CNN
+F 1 "MCP7940NT-I_MS" H 4000 2974 50  0000 C CNN
+F 2 "SOP65P490X110-8N" H 4400 2900 50  0001 L CNN
+F 3 "https://4donline.ihs.com/images/VipMasterIC/IC/MCHP/MCHP-S-A0005985425/MCHP-S-A0005985425-1.pdf?hkey=52A5661711E402568146F3353EA87419" H 4400 2800 50  0001 L CNN
+F 4 "MICROCHIP - MCP7940NT-I/MS - Real-Time Clock/Calendar, I2C, 1.8 V to 5.5V, HH:MM:SS, YY-MM-DD-dd, MSOP-8, -40 C to 85 C" H 4400 2700 50  0001 L CNN "Description"
+F 5 "1.1" H 4400 2600 50  0001 L CNN "Height"
+F 6 "Microchip" H 4400 2500 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP7940NT-I/MS" H 4400 2400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4400 2300 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 4400 2200 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4400 2100 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4400 2000 50  0001 L CNN "Arrow Price/Stock"
+	1    3450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 624314F9
+P 2250 2850
+F 0 "Y?" V 2100 3050 50  0000 L CNN
+F 1 "32.768 kHz" V 2400 3050 50  0000 L CNN
+F 2 "" H 2250 2850 50  0001 C CNN
+F 3 "~" H 2250 2850 50  0001 C CNN
+	1    2250 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 2600 2250 2700
+Wire Wire Line
+	2250 3000 2250 3100
+Wire Wire Line
+	2250 3100 2400 3100
+Wire Wire Line
+	2400 3100 2400 2900
+Wire Wire Line
+	2400 2800 2400 2600
+Wire Wire Line
+	2400 2600 2250 2600
+$Comp
+L SMTU2032-G.TR:SMTU2032-G.TR BT?
+U 1 1 62433A30
+P 3450 2050
+F 0 "BT?" H 4078 2046 50  0000 L CNN
+F 1 "SMTU2032-G.TR" H 4078 1955 50  0000 L CNN
+F 2 "SMTU2032GTR" H 4100 2150 50  0001 L CNN
+F 3 "https://www.mouser.vn/datasheet/2/346/SMTU2032-LF-6066.pdf" H 4100 2050 50  0001 L CNN
+F 4 "Coin Cell Battery Holders SMT HLDR-T&R-GLD CON FOR CR2032MFR" H 4100 1950 50  0001 L CNN "Description"
+F 5 "5.6" H 4100 1850 50  0001 L CNN "Height"
+F 6 "RENATA" H 4100 1750 50  0001 L CNN "Manufacturer_Name"
+F 7 "SMTU2032-G.TR" H 4100 1650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "614-SMTU2032-G.TR" H 4100 1550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Renata/SMTU2032-GTR?qs=d7FVziISmVPs6ss5NaRx1A%3D%3D" H 4100 1450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4100 1350 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4100 1250 50  0001 L CNN "Arrow Price/Stock"
+	1    3450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3100 3350 3100
+Wire Wire Line
+	3350 3100 3350 2150
+Wire Wire Line
+	3350 2150 3450 2150
+Wire Wire Line
+	3450 2050 3250 2050
+Wire Wire Line
+	3250 2050 3250 3000
+Wire Wire Line
+	3250 3000 3450 3000
+Wire Wire Line
+	2250 2600 2150 2600
+Connection ~ 2250 2600
+Wire Wire Line
+	2250 3100 2150 3100
+Connection ~ 2250 3100
+$Comp
+L Device:C C?
+U 1 1 62436AB2
+P 2000 2600
+F 0 "C?" V 1748 2600 50  0000 C CNN
+F 1 "C" V 1839 2600 50  0000 C CNN
+F 2 "" H 2038 2450 50  0001 C CNN
+F 3 "~" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 624370F6
+P 2000 3100
+F 0 "C?" V 1748 3100 50  0000 C CNN
+F 1 "C" V 1839 3100 50  0000 C CNN
+F 2 "" H 2038 2950 50  0001 C CNN
+F 3 "~" H 2000 3100 50  0001 C CNN
+	1    2000 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2800 3450 2800
+Wire Wire Line
+	2400 2900 3450 2900
+Wire Wire Line
+	1850 2600 1750 2600
+Wire Wire Line
+	1750 2600 1750 3100
+Wire Wire Line
+	1850 3100 1750 3100
+Connection ~ 1750 3100
+Wire Wire Line
+	1750 3100 1750 3200
+Wire Wire Line
+	3350 3100 3350 3200
+Connection ~ 3350 3100
+Wire Wire Line
+	4550 2800 4650 2800
+Wire Wire Line
+	4550 3000 4950 3000
+Wire Wire Line
+	4550 3100 5250 3100
+$Comp
+L power:GND #PWR?
+U 1 1 6243A523
+P 3350 3200
+F 0 "#PWR?" H 3350 2950 50  0001 C CNN
+F 1 "GND" H 3355 3027 50  0000 C CNN
+F 2 "" H 3350 3200 50  0001 C CNN
+F 3 "" H 3350 3200 50  0001 C CNN
+	1    3350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6243A9F2
+P 1750 3200
+F 0 "#PWR?" H 1750 2950 50  0001 C CNN
+F 1 "GND" H 1755 3027 50  0000 C CNN
+F 2 "" H 1750 3200 50  0001 C CNN
+F 3 "" H 1750 3200 50  0001 C CNN
+	1    1750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6243B945
+P 4950 2750
+F 0 "R?" H 5020 2796 50  0000 L CNN
+F 1 "4.7k" H 5020 2705 50  0000 L CNN
+F 2 "" V 4880 2750 50  0001 C CNN
+F 3 "~" H 4950 2750 50  0001 C CNN
+	1    4950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6243BDF5
+P 5250 2750
+F 0 "R?" H 5320 2796 50  0000 L CNN
+F 1 "4.7k" H 5320 2705 50  0000 L CNN
+F 2 "" V 5180 2750 50  0001 C CNN
+F 3 "~" H 5250 2750 50  0001 C CNN
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2500 4950 2500
+Wire Wire Line
+	5250 2500 5250 2600
+Wire Wire Line
+	4650 2500 4650 2800
+Wire Wire Line
+	4950 2600 4950 2500
+Connection ~ 4950 2500
+Wire Wire Line
+	4950 2500 5250 2500
+Wire Wire Line
+	4950 2400 4950 2500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6243D702
+P 4950 2400
+F 0 "#PWR?" H 4950 2250 50  0001 C CNN
+F 1 "+3V3" H 4965 2573 50  0000 C CNN
+F 2 "" H 4950 2400 50  0001 C CNN
+F 3 "" H 4950 2400 50  0001 C CNN
+	1    4950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2900 4950 3000
+Connection ~ 4950 3000
+Wire Wire Line
+	4950 3000 5500 3000
+Wire Wire Line
+	5250 2900 5250 3100
+Connection ~ 5250 3100
+Wire Wire Line
+	5250 3100 5500 3100
+Text HLabel 5500 3000 2    50   Input ~ 0
+SCL
+Text HLabel 5500 3100 2    50   BiDi ~ 0
+SCA
+$EndSCHEMATC

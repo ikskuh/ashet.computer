@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -296,5 +296,13 @@ F33 "D14" B R 5650 2150 50
 F34 "A10" I L 5000 1750 50 
 F35 "A11" I L 5000 1850 50 
 F36 "BLS0" I L 5000 2250 50 
+$EndSheet
+$Sheet
+S 5000 2900 650  300 
+U 62430B8F
+F0 "RTC" 50
+F1 "rtc.sch" 50
+F2 "SCL" I R 5650 3000 50 
+F3 "SCA" B R 5650 3100 50 
 $EndSheet
 $EndSCHEMATC

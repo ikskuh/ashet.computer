@@ -15,4 +15,6 @@
   (lib (name ENC624J600T-I_PT)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/ENC624J600T-I_PT/ENC624J600T-I_PT.lib)(options "")(descr ""))
   (lib (name J1B1211CCD)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/J1B1211CCD/J1B1211CCD.lib)(options "")(descr ""))
   (lib (name ATS25ASM-1E)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/ATS25ASM-1E/ATS25ASM-1E.lib)(options "")(descr ""))
+  (lib (name MCP7940NT-I_MS)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/MCP7940NT-I_MS/MCP7940NT-I_MS.lib)(options "")(descr ""))
+  (lib (name SMTU2032-G.TR)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/SMTU2032-G.TR/SMTU2032-G.TR.lib)(options "")(descr ""))
 )

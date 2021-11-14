@@ -18,6 +18,7 @@ The Ashet Home Computer is a platform to build your own computers on.
 - Studio-quality line audio from I²S
 - Realtime clock
 - 10/100 MBit Ethernet
+- JTAG debugging
 
 ## Block Diagram
 
@@ -50,9 +51,10 @@ The project is in heavy planning phase with most of the required parts identifie
 | Ethernet      | Schematic |
 | RAM           | Schematic |
 | Flash         | Schematic |
-| RTC           | -         |
+| RTC           | Schematic |
 | FPGA          | -         |
 | Power Supply  | -         |
+| SOC JTAG      | -         |
 
 ## Contribution
 

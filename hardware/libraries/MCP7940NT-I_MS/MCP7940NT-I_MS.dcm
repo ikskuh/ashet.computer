@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP7940NT-I_MS
+D MICROCHIP - MCP7940NT-I/MS - Real-Time Clock/Calendar, I2C, 1.8 V to 5.5V, HH:MM:SS, YY-MM-DD-dd, MSOP-8, -40 C to 85 C
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/MCHP/MCHP-S-A0005985425/MCHP-S-A0005985425-1.pdf?hkey=52A5661711E402568146F3353EA87419
+$ENDCMP
+#
+#End Doc Library
