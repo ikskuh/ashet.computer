@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT25SF128A-SHB-T
+D NOR Flash 128Mb, 133MHz, 8-SOIC-W, IND TEMP, 2.7-3.6V, T&R
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8feb0937f5fd325e86611eb27aef6c37.pdf
+$ENDCMP
+#
+#End Doc Library

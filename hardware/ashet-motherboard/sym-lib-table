@@ -10,4 +10,5 @@
   (lib (name BSN20-7)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/BSN20-7/BSN20-7.lib)(options "")(descr ""))
   (lib (name CS4344-CZZ)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/CS4344-CZZ/CS4344-CZZ.lib)(options "")(descr ""))
   (lib (name PJRAS1X2S01X)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/PJRAS1X2S01X/PJRAS1X2S01X.lib)(options "")(descr ""))
+  (lib (name AT25SF128A-SHB-T)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/AT25SF128A-SHB-T/AT25SF128A-SHB-T.lib)(options "")(descr ""))
 )

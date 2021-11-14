@@ -49,7 +49,7 @@ The project is in heavy planning phase with most of the required parts identifie
 | VGA           | Schematic        |
 | Ethernet      | Parts identified |
 | RAM           | Parts identified |
-| Flash         | Parts identified |
+| Flash         | Schematic        |
 | RTC           | -                |
 | FPGA          | -                |
 | Power Supply  | -                |

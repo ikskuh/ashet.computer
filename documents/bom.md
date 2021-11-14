@@ -2,7 +2,7 @@
 
 | Part Name               | Count | Usage         | Package    | Descriptive Name                                                                                           |
 | ----------------------- | ----- | ------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| AT25SF128A              | 1     | BIOS Flash    | 8-SOIC     | 128 Mbit Serial NOR Flash Memory with Dual and Quad I/O Support                                            |
+| AT25SF128A-SHB-T        | 1     | BIOS Flash    | 8-SOIC     | 128 Mbit Serial NOR Flash Memory with Dual and Quad I/O Support                                            |
 | NDS76PT5-20IT           | 1     | System RAM    | 54-TSOP II | 128Mb (x16) - SDR Synchronous DRAM                                                                         |
 | TXB0108PWR              | 4     | IDE           | 20-TSSOP   | TXB0108 8-Bit Bidirectional Voltage-Level Translator with Auto-Direction Sensing and ±15-kV ESD Protection |
 | MAX561CAI               | 2     | UART 1,2      | 28-SSOP    | +3.3V Transceiver with Two EIA/TIA-562 Receivers Active In Shutdown                                        |
