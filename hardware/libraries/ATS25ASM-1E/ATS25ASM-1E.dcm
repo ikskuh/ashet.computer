@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATS25ASM-1E
+D Crystals 25MHz 20pF 30ppm -40C 85C
+K
+F https://www.ctscorp.com/wp-content/uploads/ATS-ATSSM.pdf
+$ENDCMP
+#
+#End Doc Library

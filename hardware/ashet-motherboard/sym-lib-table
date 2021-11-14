@@ -12,4 +12,7 @@
   (lib (name PJRAS1X2S01X)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/PJRAS1X2S01X/PJRAS1X2S01X.lib)(options "")(descr ""))
   (lib (name AT25SF128A-SHB-T)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/AT25SF128A-SHB-T/AT25SF128A-SHB-T.lib)(options "")(descr ""))
   (lib (name MT48LC8M16A2P-6A_L)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/MT48LC8M16A2P-6A_L/MT48LC8M16A2P-6A_L.lib)(options "")(descr ""))
+  (lib (name ENC624J600T-I_PT)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/ENC624J600T-I_PT/ENC624J600T-I_PT.lib)(options "")(descr ""))
+  (lib (name J1B1211CCD)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/J1B1211CCD/J1B1211CCD.lib)(options "")(descr ""))
+  (lib (name ATS25ASM-1E)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/ATS25ASM-1E/ATS25ASM-1E.lib)(options "")(descr ""))
 )
