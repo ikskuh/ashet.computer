@@ -305,4 +305,23 @@ F1 "rtc.sch" 50
 F2 "SCL" I R 5650 3000 50 
 F3 "SCA" B R 5650 3100 50 
 $EndSheet
+$Comp
+L LFE5U-85F-7BG554C:LFE5U-85F-7BG554C IC?
+U 1 1 6192D5DD
+P 6850 -7150
+F 0 "IC?" H 7700 -6885 50  0000 C CNN
+F 1 "LFE5U-85F-7BG554C" H 7700 -6976 50  0000 C CNN
+F 2 "BGA554C80P26X26_2300X2300X176" H 8400 -7050 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf" H 8400 -7150 50  0001 L CNN
+F 4 "ECP5 Field Programmable Gate Array (FPGA) IC" H 8400 -7250 50  0001 L CNN "Description"
+F 5 "1.76" H 8400 -7350 50  0001 L CNN "Height"
+F 6 "Lattice Semiconductor" H 8400 -7450 50  0001 L CNN "Manufacturer_Name"
+F 7 "LFE5U-85F-7BG554C" H 8400 -7550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "842-LFE5U85F7BG554C" H 8400 -7650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-85F-7BG554C/?qs=Slt%252B5btlScSzDfjz7a54vA%3D%3D" H 8400 -7750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8400 -7850 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 8400 -7950 50  0001 L CNN "Arrow Price/Stock"
+	1    6850 -7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

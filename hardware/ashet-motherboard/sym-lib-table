@@ -17,4 +17,5 @@
   (lib (name ATS25ASM-1E)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/ATS25ASM-1E/ATS25ASM-1E.lib)(options "")(descr ""))
   (lib (name MCP7940NT-I_MS)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/MCP7940NT-I_MS/MCP7940NT-I_MS.lib)(options "")(descr ""))
   (lib (name SMTU2032-G.TR)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/SMTU2032-G.TR/SMTU2032-G.TR.lib)(options "")(descr ""))
+  (lib (name LFE5U-85F-7BG554C)(type Legacy)(uri /home/felix/projects/hardware/ashet.computer/hardware/libraries/LFE5U-85F-7BG554C/LFE5U-85F-7BG554C.lib)(options "")(descr ""))
 )
